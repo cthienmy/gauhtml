@@ -1,0 +1,69 @@
+body {
+  background: no-repeat center fixed;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(86, 89, 179, 0.7),
+      rgba(86, 89, 179, 0.7)
+    ),
+    url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+
+  .container-fluid {
+    padding-top: 80px;
+    color: rgba(255, 255, 255, 0.815);
+    .head {
+      h1 {
+        font-weight: 450;
+        font-size: 35px;
+      }
+      p {
+        margin-bottom: 30px;
+      }
+    }
+    .content {
+      background-color: rgba(27, 28, 48, 0.8);
+      padding: 33px 40px;
+      border-radius: 4px;
+      form {
+        label {
+          font-weight: 500;
+          font-size: 19px;
+        }
+        .form-check-input {
+          width: 21px;
+          height: 21px;
+        }
+        .form-check-label {
+          p {
+            padding: 0 0 5px 8px;
+            margin: 0;
+          }
+        }
+        .comment {
+          textarea {
+            display: block;
+            width: 100%;
+          }
+        }
+        button {
+          border: none;
+          border-radius: 2px;
+          padding: 12px;
+          background-color: #37af65;
+          color: rgba(255, 255, 255, 0.815);
+          margin-top: 10px;
+          font-weight: 500;
+          font-size: 18px;
+        }
+      }
+    }
+    @media screen and(min-width:450px) {
+      max-width: 500px;
+    }
+    @media screen and(min-width:650px) {
+      max-width: 600px;
+    }
+    @media screen and(min-width:850px) {
+      max-width: 760px;
+    }
+  }
+}

@@ -1,0 +1,86 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 20px 170px;
+  color: #191919;
+}
+
+body .head h2 {
+  font-weight: lighter;
+}
+
+body .content {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+body .content .item1,
+body .content .item2,
+body .content .item3 {
+  padding: 15px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+body .content .item1 .time,
+body .content .item2 .time,
+body .content .item3 .time {
+  font-size: 12px;
+}
+
+body .content .item1 p,
+body .content .item2 p,
+body .content .item3 p {
+  font-size: 15.3px;
+  margin: 10px 0;
+}
+
+body .content .item1 .icon,
+body .content .item2 .icon,
+body .content .item3 .icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: 1px solid #c2c0c0;
+  display: inline-block;
+  font-size: 30px;
+  padding: 3px;
+}
+
+body .content .item1 .icon i,
+body .content .item2 .icon i,
+body .content .item3 .icon i {
+  color: #242222;
+}
+
+body .content .item1 h4,
+body .content .item2 h4,
+body .content .item3 h4 {
+  margin: 0;
+}
+
+body .content .item1 h4 span,
+body .content .item2 h4 span,
+body .content .item3 h4 span {
+  color: #a2b70d;
+}
+
+body .content .item1,
+body .content .item3 {
+  background-color: #fbfbfb;
+}
+
+body .content .item2 {
+  background-color: #f7f7f7;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    padding: 15px 70px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

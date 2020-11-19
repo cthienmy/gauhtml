@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 100px 200px;
+  line-height: 30px;
+
+  > div {
+    display: flex;
+
+    h1 {
+      color: #21262a;
+      margin: 0;
+      font-weight: lighter;
+    }
+    P {
+      color: #98999c;
+      font-weight: lighter;
+      font-size: 15px;
+      padding: 20px 0;
+    }
+    button {
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 15px;
+      font-size: 10.7px;
+      letter-spacing: 2px;
+      font-weight: 700;
+      outline: none;
+      &.button1 {
+        background-color: #75bee1;
+      }
+      &.button2 {
+        background-color: #95d075;
+      }
+    }
+  }
+  hr {
+    border: none;
+    border-top: 1px solid #e7e9eb;
+  }
+  .content1 {
+    padding-bottom: 120px;
+    > div {
+      flex: 0 0 50%;
+    }
+    .photo1 {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  .content2 {
+    padding-top: 90px;
+    > div {
+      flex: 0 0 50%;
+    }
+  }
+  @media screen and(max-width:1125px) {
+    padding: 50px 100px;
+  }
+  @media screen and(max-width:925px) {
+    padding: 50px 50px;
+    .content1 {
+      padding-bottom: 70px;
+    }
+    .content2 {
+      padding-top: 40px;
+    }
+  }
+  @media screen and(max-width:840px) {
+    padding: 20px 20px;
+  }
+  @media screen and(max-width:765px) {
+    .content2 {
+      .photo2 {
+        flex: 0 0 70%;
+      }
+      .item2 {
+        flex: 0 0 30%;
+      }
+    }
+    .content1 {
+      .photo1 {
+        flex: 0 0 70%;
+      }
+      .item1 {
+        flex: 0 0 30%;
+      }
+    }
+  }
+  @media screen and(max-width:628px) {
+    .content1 {
+      .photo1,
+      .photo1 img {
+        display: none;
+      }
+      .item1 {
+        flex: 0 0 100%;
+      }
+    }
+    .content2 {
+      .photo2,
+      .photo2 img {
+        display: none;
+      }
+      .item2 {
+        flex: 0 0 100%;
+      }
+    }
+  }
+}

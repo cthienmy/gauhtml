@@ -1,0 +1,211 @@
+body {
+  background-color: #eeeeee;
+  padding-top: 100px;
+}
+
+body .fixed {
+  width: 100%;
+  background-color: #eeeeee;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+body .fixed nav {
+  padding: 0;
+  font-size: 16px;
+}
+
+body .fixed nav ul {
+  width: 40%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .fixed nav ul li {
+  padding: 20px 0px;
+}
+
+body .fixed nav ul li a {
+  padding: 0;
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 572px) {
+  body .fixed nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .fixed nav ul {
+    text-align: center;
+  }
+  body .fixed nav ul li.nav-item {
+    padding: 0;
+  }
+  body .fixed nav ul li.nav-item a {
+    padding: 0;
+  }
+}
+
+body .container-fluid {
+  padding: 0;
+}
+
+body .container-fluid .head h4 {
+  margin-bottom: 20px;
+}
+
+body .container-fluid .head input {
+  width: 290px;
+}
+
+body .container-fluid .head button {
+  background-color: #f1c40f;
+  font-size: 18px;
+  font-weight: 700;
+  width: 150px;
+  padding: 1px;
+  border: none;
+  border-radius: 2px;
+}
+
+body .container-fluid .head button:hover {
+  background-color: #e78711;
+}
+
+@media screen and (max-width: 560px) {
+  body .container-fluid .head {
+    padding-top: 20px;
+  }
+}
+
+body .container-fluid .content1 .icon {
+  padding: 90px 20px 0;
+  max-width: 800px;
+  margin: auto;
+}
+
+body .container-fluid .content1 .icon .row {
+  padding-bottom: 54px;
+}
+
+body .container-fluid .content1 .icon .row i {
+  color: #ff8c00;
+  font-size: 45px;
+}
+
+body .container-fluid .content1 .icon .row .col-11 {
+  padding-left: 67px;
+}
+
+body .container-fluid .content1 .icon .row .col-11 p {
+  line-height: 20px;
+}
+
+@media screen and (max-width: 550px) {
+  body .container-fluid .content1 .icon .row i {
+    display: none;
+  }
+  body .container-fluid .content1 .icon .row .col-11 {
+    max-width: 100%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+}
+
+body .container-fluid .content1 .video {
+  padding: 10px 0 60px;
+  max-width: 600px;
+  margin: auto;
+}
+
+body .container-fluid .content2 {
+  max-width: 1030px;
+  margin: auto;
+}
+
+body .container-fluid .content2 .select {
+  padding: 0 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container-fluid .content2 .select .row {
+  width: 1030px;
+}
+
+body .container-fluid .content2 .select .row .col-4 .item {
+  border: 1px solid;
+}
+
+body .container-fluid .content2 .select .row .col-4 .item h6 {
+  background-color: #dddddd;
+  padding: 20px;
+}
+
+body .container-fluid .content2 .select .row .col-4 .item h3 {
+  padding: 5px 0 10px;
+}
+
+body .container-fluid .content2 .select .row .col-4 .item p {
+  margin: 0;
+  line-height: 30px;
+}
+
+body .container-fluid .content2 .select .row .col-4 .item button {
+  background-color: #f1c40f;
+  border-radius: 2px;
+  width: 100px;
+  margin: 30px 0 15px;
+  font-weight: 400;
+  border: none;
+  padding: 8px;
+  font-size: 17px;
+}
+
+body .container-fluid .content2 .select .row .col-4 .item button:hover {
+  background-color: #e78711;
+}
+
+@media screen and (max-width: 860px) {
+  body .container-fluid .content2 .select .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .container-fluid .content2 .select .row .col-4 {
+    margin: auto;
+    max-width: 297px !important;
+    padding: 5px 0;
+  }
+}
+
+body .container-fluid .content2 .foot {
+  margin: auto;
+  padding-top: 40px;
+}
+
+body .container-fluid .content2 .foot .footin {
+  background-color: #dddddd;
+  padding: 20px 20px;
+}
+
+body .container-fluid .content2 .foot .footin .foot1 a {
+  padding: 0 7px;
+  color: black;
+}
+
+body .container-fluid .content2 .foot .footin .foot2 p {
+  color: #383737;
+  font-size: 14px;
+  margin: 0;
+}
+/*# sourceMappingURL=main.css.map */

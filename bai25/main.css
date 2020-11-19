@@ -1,0 +1,123 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px 100px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+body .border {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  background-color: #66d469;
+  text-align: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
+  font-size: 30px;
+}
+
+body .container {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 70%;
+          flex: 0 0 70%;
+  padding-left: 70px;
+}
+
+body .container h2 {
+  line-height: 40px;
+  font-size: 27px;
+  margin-bottom: 35px;
+}
+
+body .container h2 strong {
+  background-color: #01bacf;
+  color: white;
+  padding: 0 7px;
+}
+
+body .container p {
+  line-height: 25px;
+  color: #a9a9a9;
+  margin-bottom: 50px;
+}
+
+body .container .list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+body .container .list ul li {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.33%;
+          flex: 0 0 33.33%;
+}
+
+body .container .list ul li a {
+  text-decoration: none;
+  color: #a9a9a9;
+}
+
+body .container .list ul li a i {
+  color: #01bacf;
+  padding: 7px 10px 7px 0;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  body .container .list ul li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body .container .list ul li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+}
+
+body .container button {
+  background-color: #01bacf;
+  border: none;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 920px) {
+  body .border {
+    display: none;
+  }
+  body .container {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */
