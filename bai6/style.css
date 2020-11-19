@@ -1,0 +1,26 @@
+body{
+  font-family:verdana;
+}
+.head{
+  text-align:center;
+  color:#383838;
+}
+.flex-container{
+  display:flex;
+  justify-content: center;
+}
+.flex-container p,.dau,.cuoi{
+  background-color:#8598CC;
+  margin:30px 15px;
+  padding:55px 40px;
+  text-align:center;
+  font-size:22px;
+  color:white;
+  
+}
+.dau{
+  margin-left:80px;
+}
+.cuoi{
+  margin-right:80px;
+}

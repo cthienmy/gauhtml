@@ -1,0 +1,48 @@
+.container {
+  font-family: Anaheim;
+  word-spacing: 8px;
+  letter-spacing: 1px;
+}
+.container h1 {
+  text-align: center;
+  margin: auto;
+  width: 600px;
+  line-height: 60px;
+  padding-bottom: 60px;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+.container p {
+  font-size: 18px;
+  line-height: 35px;
+  margin: 0 0 25px;
+}
+.container #title {
+  font-size: 16px;
+  color: #2B538A;
+  padding-bottom: 20px;
+}
+.container #name {
+  margin: 0;
+}
+.container #smail {
+  font-size: 16px;
+}
+.container .content {
+  display: flex;
+}
+.container .content .item1 {
+  border: 1px solid white;
+  padding: 0 45px 0;
+  margin: 40px 70px;
+  width: 320px;
+  flex-shrink: 0;
+  box-shadow: 5px 5px 25px 4px #EEEEEE,-5px -5px 25px 4px #EEEEEE;
+}
+.container .content .item1 h2 {
+  margin: 70px 0 30px;
+}
+.container .content .item2 {
+  padding: 0;
+  margin: 40px 110px 0 10px;
+}

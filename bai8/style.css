@@ -1,0 +1,39 @@
+body{
+  font-family:verdana;
+}
+.head{
+  text-align:center;
+  margin:60px 0;
+}
+.head p{
+  display:inline-block;
+  text-align:center;
+  font-size:16px;
+  color:#5F5F5F;
+  width:850px;
+  line-height:27px;
+}
+.container{
+  display:flex;
+  justify-content:center;
+}
+.container > div{
+  text-align:center;
+  margin:0px;
+  padding:0 20px;
+  width:500px;
+}
+.HWC{
+  background-color:#CC784E;
+  color:white;
+  width:45px;
+  line-height:48px;
+  text-align:center;
+  margin:auto;
+  font-size:11px;
+}
+.We{
+  font-size:15px;
+  margin-top:25px;
+  font-weight:bold;
+}

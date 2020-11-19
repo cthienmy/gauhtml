@@ -1,0 +1,83 @@
+.body {
+  font-family: arial;
+  background-color: #F2F3F5;
+  margin: 20px 70px;
+  color: #A9AAAA;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  word-spacing: 3px;
+  max-width: 10000px;
+}
+.body h1, .body h3, .body q {
+  color: black;
+  letter-spacing: -1px;
+}
+.body .head {
+  margin: 0px 30px;
+}
+.body .head h1 {
+  padding: 40px 0;
+  font-size: 45px;
+  margin: 0;
+}
+.body .head p {
+  font-size: 20px;
+  display: inline-block;
+  width: 880px;
+  margin: 0 0 40px;
+}
+.body .left-right {
+  display: flex;
+}
+.body .left-right .left {
+  margin: 20px 30px;
+}
+.body .left-right .left .border-blue {
+  background-color: #789ADE;
+  border-radius: 6px;
+  height: 320px;
+  width: 450px;
+  line-height: 320px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 20px;
+}
+.body .left-right .left .bottom-border {
+  display: inline-block;
+  width: 450px;
+}
+.body .left-right .left .bottom-border q {
+  font-weight: bold;
+  font-size: 25px;
+}
+.body .left-right .right .hr {
+  text-align: left;
+  padding: 0;
+  border: none;
+  border-top: 1px dashed red;
+  width: 95%;
+  text-align: center;
+}
+.body .left-right .right .item {
+  display: flex;
+  padding-bottom: 5px;
+}
+.body .left-right .right .item h3 {
+  margin: 30px 0 0;
+}
+.body .left-right .right .item p {
+  margin-right: 33px;
+}
+.body .left-right .right .item .border {
+  background-color: #D997DE;
+  width: 100px;
+  height: 110px;
+  border-radius: 6px;
+  color: white;
+  line-height: 100px;
+  text-align: center;
+  font-size: 70px;
+  margin: 20px 30px 20px 0;
+  flex-shrink: 0;
+}

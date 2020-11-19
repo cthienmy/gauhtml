@@ -1,0 +1,30 @@
+.container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  font-family:verdana;
+}
+.container > div{
+  width:400px;
+  background-color:#F8F8F8;
+  text-align:center;
+  margin:20px;
+ 
+}
+.item{
+  display:inline-block;
+  border:2px solid #339999;
+  border-radius:50%;
+  width:70px;
+  height:70px;
+  line-height:70px;
+  margin-top:30px;
+  color:#339999;
+  font-size:30px;
+}
+p{
+  width:360px;
+  margin:25px auto;
+  font-size:15px;
+  line-height:20px;
+}

@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  color: #999999;
+  background-color: black;
+  font-family: ABeeZee,Sans-Serif;
+  line-height: 30px;
+}
+.container .item1 {
+  margin: 60px 30px 40px 50px;
+  width: 400px;
+}
+.container .item1 .border {
+  background-color: #8598CC;
+  width: 190px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 60px;
+}
+.container hr {
+  border: none;
+  border-top: 0.2px dashed #999999;
+  margin: 12px 0;
+}
+.container ul {
+  list-style-type: none;
+  padding: 0;
+}
+.container ul a {
+  text-decoration: none;
+  color: #999999;
+}
+.container ul a:hover {
+  color: white;
+}
+.container h2 {
+  color: white;
+  margin: 0 0 35px;
+}
+.container .item2 {
+  margin: 60px 30px 0px 0px;
+  width: 300px;
+}
+.container .item3 {
+  margin: 60px 30px 0px 0px;
+  width: 250px;
+}
+.container .item4 {
+  margin: 60px 30px 0px 0px;
+  width: 180px;
+}
+.container .item4 li {
+  display: flex;
+  width: 170px;
+  height: 25px;
+}
+.container .item4 div {
+  border-left: 1px dashed;
+  padding-left: 10px;
+  margin-left: 10px;
+  line-height: 25px;
+}
+.container .item4 i {
+  line-height: 25px;
+  width: 20px;
+}

@@ -1,0 +1,25 @@
+.container{
+  font-family:verdana;
+  display:flex;
+  flex-direction:column;
+  width:400px;
+  margin-left:400px;
+}
+.head{
+  text-align:justify;
+  margin-left:10px;
+}
+.content {
+  display:flex;
+  flex-wrap:wrap;
+  background-color:#;
+  
+}
+.content p{
+  background-color:#01BACF;
+  border-radius:3px;
+  padding:10px;
+  text-align:justify;
+  margin:10px;
+  color:white;
+}

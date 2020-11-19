@@ -1,0 +1,23 @@
+body{
+  background-image:url("https://hocwebchuan.com/exercises/images/bg_special.png");
+}
+.div1{
+  text-align:center;
+}
+.div1 p{
+  margin:30px 0 50px;
+}
+.div2{
+  width:310px;
+  background-color:rgb(226,81,59);
+  margin:auto;
+  font-size:18px;
+  border-radius:2px;
+  padding:0.5px;
+  
+  outline-style: outset;
+}
+.div2 p{
+   width:300px;
+   text-align:center;
+}

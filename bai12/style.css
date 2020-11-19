@@ -1,0 +1,47 @@
+.container, .item2, button{
+  display:flex;
+  font-family:verdana;
+  font-size:14px;
+}
+
+.item1{
+  background-color:#8598CC;
+  width:190px;
+  margin:0px 10px;
+  flex-shrink:0;
+}
+
+
+.item2 p{
+  margin:0px 20px;
+  line-height:50px;
+}
+
+a{
+  text-decoration:none;
+}
+
+p a:hover{
+  color:#00AEEF;
+}
+
+button:hover a{
+   color:#00AEEF;
+}
+
+a{
+  color:black;
+}
+
+.item3{
+  width:100%;
+}
+
+button{
+  margin-left:20%;
+}
+
+button div{
+  margin:auto;
+  width:150px;
+}

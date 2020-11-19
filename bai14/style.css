@@ -1,0 +1,36 @@
+.body{
+  background-color:#F2F3F5;
+  font-family:arial;
+  line-height:30px;
+  margin:20px;
+}
+
+.head{
+  text-align:center;
+  padding:20px 30px;
+  font-size:20px;
+}
+
+.container{
+  display:flex;
+  justify-content:center;
+}
+
+.item{
+  background-color:white;
+  padding:0px;
+  margin:18px;
+  width: 380px;
+  flex-shrink:0;
+}
+.item .border{
+  background-color:#91E0E6;
+  text-align:center;
+  padding:100px 0;
+  color:white;
+  font-size:30px;
+}
+
+.content{
+  margin:0px 20px;
+}
